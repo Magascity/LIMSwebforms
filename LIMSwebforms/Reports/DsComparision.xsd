@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DsComparision" targetNamespace="http://tempuri.org/DsComparision.xsd" xmlns:mstns="http://tempuri.org/DsComparision.xsd" xmlns="http://tempuri.org/DsComparision.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DsComparision" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="DsComparision" msprop:Generator_DataSetName="DsComparision">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_RowClassName="DataTable1Row" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_UserTableName="DataTable1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ComparisonId" msprop:Generator_ColumnPropNameInRow="ComparisonId" msprop:Generator_ColumnPropNameInTable="ComparisonIdColumn" msprop:Generator_ColumnVarNameInTable="columnComparisonId" msprop:Generator_UserColumnName="ComparisonId" type="xs:int" minOccurs="0" />
+              <xs:element name="MeasurementName" msprop:Generator_ColumnPropNameInRow="MeasurementName" msprop:Generator_ColumnPropNameInTable="MeasurementNameColumn" msprop:Generator_ColumnVarNameInTable="columnMeasurementName" msprop:Generator_UserColumnName="MeasurementName" type="xs:string" minOccurs="0" />
+              <xs:element name="MeasurementValue" msprop:Generator_ColumnPropNameInRow="MeasurementValue" msprop:Generator_ColumnPropNameInTable="MeasurementValueColumn" msprop:Generator_ColumnVarNameInTable="columnMeasurementValue" msprop:Generator_UserColumnName="MeasurementValue" type="xs:string" minOccurs="0" />
+              <xs:element name="MeasurementUnit" msprop:Generator_ColumnPropNameInRow="MeasurementUnit" msprop:Generator_ColumnPropNameInTable="MeasurementUnitColumn" msprop:Generator_ColumnVarNameInTable="columnMeasurementUnit" msprop:Generator_UserColumnName="MeasurementUnit" type="xs:string" minOccurs="0" />
+              <xs:element name="PurposeOfTest" msprop:Generator_ColumnPropNameInRow="PurposeOfTest" msprop:Generator_ColumnPropNameInTable="PurposeOfTestColumn" msprop:Generator_ColumnVarNameInTable="columnPurposeOfTest" msprop:Generator_UserColumnName="PurposeOfTest" type="xs:string" minOccurs="0" />
+              <xs:element name="PersonRequestingTest" msprop:Generator_ColumnPropNameInRow="PersonRequestingTest" msprop:Generator_ColumnPropNameInTable="PersonRequestingTestColumn" msprop:Generator_ColumnVarNameInTable="columnPersonRequestingTest" msprop:Generator_UserColumnName="PersonRequestingTest" type="xs:string" minOccurs="0" />
+              <xs:element name="DateCaptured" msprop:Generator_ColumnPropNameInRow="DateCaptured" msprop:Generator_ColumnPropNameInTable="DateCapturedColumn" msprop:Generator_ColumnVarNameInTable="columnDateCaptured" msprop:Generator_UserColumnName="DateCaptured" type="xs:string" minOccurs="0" />
+              <xs:element name="MeasurementId" msprop:Generator_ColumnPropNameInRow="MeasurementId" msprop:Generator_ColumnPropNameInTable="MeasurementIdColumn" msprop:Generator_ColumnVarNameInTable="columnMeasurementId" msprop:Generator_UserColumnName="MeasurementId" type="xs:string" minOccurs="0" />
+              <xs:element name="MinimumValue" msprop:Generator_ColumnPropNameInRow="MinimumValue" msprop:Generator_ColumnPropNameInTable="MinimumValueColumn" msprop:Generator_ColumnVarNameInTable="columnMinimumValue" msprop:Generator_UserColumnName="MinimumValue" type="xs:string" minOccurs="0" />
+              <xs:element name="MaximumValue" msprop:Generator_ColumnPropNameInRow="MaximumValue" msprop:Generator_ColumnPropNameInTable="MaximumValueColumn" msprop:Generator_ColumnVarNameInTable="columnMaximumValue" msprop:Generator_UserColumnName="MaximumValue" type="xs:string" minOccurs="0" />
+              <xs:element name="ComparisonStatus" msprop:Generator_ColumnPropNameInRow="ComparisonStatus" msprop:Generator_ColumnPropNameInTable="ComparisonStatusColumn" msprop:Generator_ColumnVarNameInTable="columnComparisonStatus" msprop:Generator_UserColumnName="ComparisonStatus" type="xs:string" minOccurs="0" />
+              <xs:element name="ComparisonDate" msprop:Generator_ColumnPropNameInRow="ComparisonDate" msprop:Generator_ColumnPropNameInTable="ComparisonDateColumn" msprop:Generator_ColumnVarNameInTable="columnComparisonDate" msprop:Generator_UserColumnName="ComparisonDate" type="xs:string" minOccurs="0" />
+              <xs:element name="Notes" msprop:Generator_ColumnPropNameInRow="Notes" msprop:Generator_ColumnPropNameInTable="NotesColumn" msprop:Generator_ColumnVarNameInTable="columnNotes" msprop:Generator_UserColumnName="Notes" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
